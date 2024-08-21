@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary text-primary;
+  }
+}
+
+  @media (min-width:1440px){
+    .container{
+     max-width: 1300px;
+    }
+  }
+
+  .container{
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .-bottom-3{
+    right:65px;
+    top: 40px;
+  }
+
+
+  
